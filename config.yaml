@@ -1,0 +1,21 @@
+logging:
+  base_dir: "/home/damemilien/Documents/emilien/runs/${params.max_num_phagocytes}/${params.phagocytes_starting_number}/${params.grid_radius}/${seed}"
+
+seed: 42
+
+params:
+  phag_rate_type: "sigmoid"
+  grid_radius: 60
+  bacteria_lifetime: 20
+  initial_bacterias: 2
+  initial_dentisity: 0.05
+  life_ratio: 5
+  max_num_phagocytes: 10
+  phagocytes_starting_number: 10
+  phagocytes_birth_distance: 3
+  phagocytes_spwan_rate: 0.0001
+
+simulation:
+  steps: 10000
+  animation_duration: 50
+
